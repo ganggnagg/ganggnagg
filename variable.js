@@ -1,8 +1,11 @@
-var msg='Hello';
-msg=100;
-console.log(msg);
+function myTest()
+{
+    if(true)
+    {
+        var x=100;
+    }
+    console.log(x);
+}
+myTest();
 
-var msg='Hello';
-var count=100;
-msg=count;
-console.log(msg);
+
